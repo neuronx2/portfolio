@@ -1,4 +1,4 @@
-// theme.js
+// theme.js//TODO:if you want to change and experiment on themes
 export const blueTheme = {
   body: "#EDF9FE",
   text: "#001C55",
@@ -195,4 +195,4 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+export const chosenTheme = blueTheme; //TODO: this is where i can choose a default theme of other type

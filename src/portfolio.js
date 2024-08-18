@@ -7,84 +7,82 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  title: "Kushagra Nehra",
+  description: "i paste here what i do and want to do", //TODO: details of what this is for seo purpose
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Kushagra Nehra's Website", //TODO: better name of the title
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "website_name_after_hosting", //TODO: booking the website & update
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
-  nickname: "layman_brother",
-  subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  title: "Kushagra Nehra",
+  logo_name: "KushagraNehra",
+  nickname: "neuronx2",
+  subTitle: "define my personality in one line", //TODO: professional summary
+  resumeLink: "location of my CV from google drive", //TODO:put g drive linka nd open for download
+  portfolio_repository: "https://github.com/neuronx2/portfolio",
+  githubProfile: "https://github.com/neuronx2",
 };
 
 const socialMediaLinks = [
   /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
+  // github: "_text_",
+  // linkedin: "_text_",
+  // gmail: "_text_",
+  // gitlab: "_text_",
+  // facebook: "_text_",
+  // twitter: "_text_",
+  // instagram: "_text_"
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919",
+    link: "https://github.com/ashutosh1919", //TODO:update your link
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/",
+    link: "https://www.linkedin.com/in/ashutosh1919/", //TODO:update your link
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/DevSense19",
+    link: "https://youtube.com/c/DevSense19", //TODO: update your link
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com",
+    link: "mailto:ashutoshhathidara98@gmail.com", //TODO:my gmail
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "X-Twitter",
-    link: "https://twitter.com/ashutosh_1919",
+    link: "https://twitter.com/ashutosh_1919", //TODO: make a handle
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/laymanbrother.19/", //TODO: if i want to only then
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/layman_brother/",
+    link: "https://www.instagram.com/layman_brother/", //TODO: do i want to
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
 const skills = {
+  //TODO: update all that is there
   data: [
     {
       title: "Data Science & AI",
@@ -132,7 +130,7 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Full Stack Development", //TODO:change it
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
@@ -214,7 +212,7 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Infra-Architecture", //TODO:change it totally
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
@@ -223,6 +221,7 @@ const skills = {
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
+        //TODO:update it
         {
           skillName: "GCP",
           fontAwesomeClassname: "simple-icons:googlecloud",
@@ -282,7 +281,7 @@ const skills = {
       ],
     },
     {
-      title: "UI/UX Design",
+      title: "UI/UX Design", //TODO: update
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
@@ -323,7 +322,7 @@ const skills = {
   ],
 };
 
-// Education Page
+// Education Page//TODO:check what this is later
 const competitiveSites = {
   competitiveSites: [
     {
@@ -378,6 +377,7 @@ const competitiveSites = {
 };
 
 const degrees = {
+  //TODO:degrees
   degrees: [
     {
       title: "Indian Institute of Information Technology Kurnool",
@@ -409,6 +409,7 @@ const degrees = {
 };
 
 const certifications = {
+  //TODO: cretifications
   certifications: [
     {
       title: "Machine Learning",
@@ -523,7 +524,8 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
+  //TODO:experience
+  title: "Experience", //TODO:you can also change the name here to reflect the info
   subtitle: "Work, Internship and Volunteership",
   description:
     "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
@@ -580,7 +582,7 @@ const experience = {
       ],
     },
     {
-      title: "Internships",
+      title: "Internships", //TODO: internships
       experiences: [
         {
           title: "Machine Learning Intern",
@@ -619,7 +621,7 @@ const experience = {
       ],
     },
     {
-      title: "Volunteerships",
+      title: "Volunteerships", //TODO:social work
       experiences: [
         {
           title: "Google Explore ML Facilitator",
@@ -684,6 +686,7 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
+  //TODO:some projects that i did with specifics
   title: "Projects",
   description:
     "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
@@ -691,6 +694,7 @@ const projectsHeader = {
 };
 
 const publicationsHeader = {
+  //TODO:some blogs i want to write
   title: "Publications",
   description: "Some of my published Articles, Blogs and Research.",
   avatar_image_path: "projects_image.svg",
@@ -724,9 +728,10 @@ const publications = {
 
 // Contact Page
 const contactPageData = {
+  //TODO:contact infromation
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "animated_ashutosh.png", //TODO: chnage image and names
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -739,14 +744,14 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    subtitle: "_text_",
+    locality: "_text_",
+    country: "_text_",
+    region: "_text_",
+    postalCode: "_text_",
+    streetAddress: "_text_",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "_gps_maps_link_",
   },
   phoneSection: {
     title: "",
