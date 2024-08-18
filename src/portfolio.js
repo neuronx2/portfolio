@@ -7,7 +7,7 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Kushagra Nehra",
+  title: "Nehra ji",
   description: "i paste here what i do and want to do", //TODO: details of what this is for seo purpose
   og: {
     title: "Kushagra Nehra's Website", //TODO: better name of the title
@@ -18,7 +18,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "K Nehra",
+  title: "Kushagra Nehra",
   logo_name: "KushagraNehra",
   nickname: "neuronx2",
   subTitle: "define my personality in one line", //TODO: professional summary
