@@ -18,7 +18,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Kushagra Nehra",
+  title: "K Nehra",
   logo_name: "KushagraNehra",
   nickname: "neuronx2",
   subTitle: "define my personality in one line", //TODO: professional summary
