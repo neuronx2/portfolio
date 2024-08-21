@@ -7,12 +7,12 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Nehra ji",
-  description: "i paste here what i do and want to do", //TODO: details of what this is for seo purpose
+  title: "NeuronX²",
+  description: "Kushagra Nehra's website", //TODO: details of what this is for seo purpose
   og: {
     title: "Kushagra Nehra's Website", //TODO: better name of the title
     type: "website",
-    url: "website_name_after_hosting", //TODO: booking the website & update
+    url: "https://neuronx2.github.io/home",
   },
 };
 
@@ -20,9 +20,11 @@ const seo = {
 const greeting = {
   title: "Kushagra Nehra",
   logo_name: "KushagraNehra",
-  nickname: "neuronx2",
-  subTitle: "define my personality in one line", //TODO: professional summary
-  resumeLink: "location of my CV from google drive", //TODO:put g drive linka nd open for download
+  nickname: "NeuronX²",
+  subTitle:
+    "Management professional with over 13 years of expertise in market expansion, financial and business analytics across industries like material tech, food tech, and ITES.",
+  resumeLink:
+    "https://drive.google.com/file/d/1LqBu0cKuUEXf2TCqv-3aoX7ZudF212gd/view?usp=sharing",
   portfolio_repository: "https://github.com/neuronx2/portfolio",
   githubProfile: "https://github.com/neuronx2",
 };
@@ -39,189 +41,175 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/ashutosh1919", //TODO:update your link
+    link: "https://github.com/neuronx2",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ashutosh1919/", //TODO:update your link
+    link: "www.linkedin.com/in/kushagra-nehra",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "YouTube",
-    link: "https://youtube.com/c/DevSense19", //TODO: update your link
-    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+    name: "Xing",
+    link: "https://www.xing.com/profile/kushagra_nehra",
+    fontAwesomeIcon: "fa-brands fa-square-xing", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#006567", // Reference https://simpleicons.org/?q=youtube
   },
   {
     name: "Gmail",
-    link: "mailto:ashutoshhathidara98@gmail.com", //TODO:my gmail
+    link: "mailto:nehra.kushagra@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
+  /* {
     name: "X-Twitter",
     link: "https://twitter.com/ashutosh_1919", //TODO: make a handle
     fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  },
-  {
+  },*/
+  /*{
     name: "Facebook",
     link: "https://www.facebook.com/laymanbrother.19/", //TODO: if i want to only then
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
+  },*/
+  /*{
     name: "Instagram",
     link: "https://www.instagram.com/layman_brother/", //TODO: do i want to
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  },*/
 ];
 
 const skills = {
-  //TODO: update all that is there
   data: [
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Data Driven Strategy",
+      fileName: "DataScienceImg", //TODO:change it totally
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "Post starting my career in data about 10 years back, as data generatr I graduated towards data user roles.",
+        "⚡ I work closely with senior management ofthen navigating my work through crossfunctional teams.",
+        "⚡ Simplyfying and presenting the data interpretation for my stakeholders to turn them into actionable items.",
+        "⚡ My role can be classified as in-house consultant who combines BI, Data Science, Analytics & Management together.",
+        "My last projects have been about product innovation and market expansion in Semiconductors, Autonomous Driving, Renewable energy & Carbon Capture markets.",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "SharePoint",
+          fontAwesomeClassname: "mdi:microsoft-sharepoint",
+          style: {
+            backgroundColor: "transparent",
+            color: "#038186",
+          },
+        },
+        {
+          skillName: "Confluence",
+          fontAwesomeClassname: "simple-icons:confluence",
+          style: {
+            backgroundColor: "transparent",
+            color: "#2684ff",
+          },
+        },
+        {
+          skillName: "Canva",
+          fontAwesomeClassname: "simple-icons:canva",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "MS Office",
+          fontAwesomeClassname: "mdi:microsoft-office",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            backgroundColor: "transparent",
+            color: "#F65314",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Google Suite",
+          fontAwesomeClassname: "logos:google-360suite",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "Crunchbase",
+          fontAwesomeClassname: "simple-icons:crunchbase",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
+            color: "#3358FF",
           },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
         },
       ],
     },
     {
-      title: "Full Stack Development", //TODO:change it
-      fileName: "FullStackImg",
+      title: "Analytics: Business, Data & Finance",
+      fileName: "FullStackImg", //TODO:change it totally
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "This is where I bring my diverse education and expereince together by combining tech with management",
+        "⚡ You can find me building business cases for organic or inorganic expansion for approval from senior management",
+        "⚡ From data validation to data presentation using basic tools like excel to advanced BI tools you can always find something on my working screen",
+        "⚡ Getting hands dirty with code, correction & little bit of programming, othen staring and interpreting badly written code as well :)",
+        "⚡ Data processing & Developing basic data science models specially related to consumer economics",
+        "Some of my last projects were into ERP implimentation, Market Research, Value prediction, Sample Classification, KPI definitons and Dashboards",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
+          skillName: "Tableau",
+          fontAwesomeClassname: "logos:tableau-icon",
         },
         {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
+          skillName: "Salesforce",
+          fontAwesomeClassname: "logos:salesforce",
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
+          skillName: "PowerBI",
+          fontAwesomeClassname: "logos:microsoft-power-bi",
         },
         {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
+          skillName: "Python",
+          fontAwesomeClassname: "logos:python",
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "SQL",
+          fontAwesomeClassname: "mdi:sql-query",
           style: {
             color: "#61DAFB",
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
+          skillName: "SPSS",
+          fontAwesomeClassname: "devicon:spss",
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
+          skillName: "GA",
+          fontAwesomeClassname: "logos:google-analytics",
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
+          skillName: "AWS",
+          fontAwesomeClassname: "logos:aws",
         },
       ],
     },
     {
-      title: "Cloud Infra-Architecture", //TODO:change it totally
-      fileName: "CloudInfraImg",
+      title: "Project & Product Management",
+      fileName: "CloudInfraImg", //TODO:change it totally
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "At various points in professional journey, I have lead various projects to end and seen development of products till the end stage.",
+        "⚡ I often act as a bridge between Clients (internal & external) and technical experters doning the hat of Project Manager or sometimes as Product Manager.",
+        "⚡ Documenting, validating the VOC, project requirements, avoiding scope creep , allocating resources & always shooting out emails.",
+        "⚡ Implimenting process for New Product Development (Blueprinting). Engaging into questions and answers to explore the hidden key deliverables.",
+        "From multiple digital products to market reseach projects, my latest deliverable was a development of a physical product capable of utilization in Hydrogen Production with help of R&D team.",
       ],
       softwareSkills: [
         //TODO:update it
+
+        {
+          skillName: "Jira",
+          fontAwesomeClassname: "logos:jira",
+        },
         {
           skillName: "GCP",
           fontAwesomeClassname: "simple-icons:googlecloud",
@@ -237,31 +225,14 @@ const skills = {
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
+          skillName: "Blueprint",
+          fontAwesomeClassname: "logos:blueprint",
         },
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
           },
         },
         {
@@ -280,8 +251,8 @@ const skills = {
         },
       ],
     },
-    {
-      title: "UI/UX Design", //TODO: update
+    /*{
+      title: "Marketing Research", //TODO: update
       fileName: "DesignImg",
       skills: [
         "⚡ Designing highly attractive user interface for mobile and web applications",
@@ -318,14 +289,14 @@ const skills = {
           },
         },
       ],
-    },
+    },*/
   ],
 };
 
 // Education Page//TODO:check what this is later
 const competitiveSites = {
   competitiveSites: [
-    {
+    /*{
       siteName: "LeetCode",
       iconifyClassname: "simple-icons:leetcode",
       style: {
@@ -372,38 +343,80 @@ const competitiveSites = {
         color: "#20BEFF",
       },
       profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    },*/
   ],
 };
-
 const degrees = {
-  //TODO:degrees
   degrees: [
     {
-      title: "Indian Institute of Information Technology Kurnool",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IIITDM Kurnool",
-      duration: "2016 - 2020",
+      title: "University of Delhi",
+      subtitle: "B.Sc.(H) Biomedical Sciences",
+      logo_path: "du_logo.png",
+      alt_name: "DU BSc",
+      duration: "2003 - 2006",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ One of the top rankers to get through after the all india level entrance exams (10th Place).",
+        "⚡ I studied various subjects that are studied in medical except human anatomy and some more.",
+        "⚡ Very reseach intensive curriculum and covered subjects like Bioinformatics, Biochemistry, Biostatistics, Biophysics, Microbiology, Pharmacology etc.",
+        "⚡ As a graduate student, I worked on DNA vaccines against prostate cancer using bioengineering to develop required vaccine protiens in recombinant plants.",
       ],
-      website_link: "http://iiitk.ac.in",
+      website_link: "https://www.du.ac.in/",
     },
     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
+      title: "Infinity Business School",
+      subtitle: "PGDGM (Finance and Marketing)",
+      logo_path: "inbuss_logo.png",
+      alt_name: "Inbuss_citicorp",
+      duration: "2006 - 2008",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ Two year post graduate course equivalent to MBA",
+        "⚡ An extensive industry immersed curriculum with deep focus on Fiance and Wealth Management. However, I majored in Finance and Marketing both.",
+        "⚡ During my time at Infinty, I interned with ICICI asset management company and helped them do sales through Private Bank and Public Bank channels.",
+        "⚡ The accumen developed in Marketing Research, how the marketing is implimented at grassroot level and their impact on Financials is something I still carry professionally.",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.inbuss.com/",
+    },
+    {
+      title: "CCS University",
+      subtitle: "LLB (Bachelor of Laws)",
+      logo_path: "ccs_logo.png",
+      alt_name: "ccs_llb",
+      duration: "2006 - 2009",
+      descriptions: [
+        "⚡ Three year post graduate course spanning over various laws that fall under the Indian Legal Ecosystem.",
+        "⚡ Though there were varied courses but I always focused on Corporate Law & Legal Compliance.",
+        "⚡ The deep understaning of law helped me liaise through the compliance challenges at various government offices.",
+        "⚡ The ability ot interpret laws and drafting still helps me in putting words and communication in a precise method to convey exact meaning.",
+      ],
+      website_link: "https://www.ccsuniversity.ac.in/",
+    },
+    {
+      title: "Arun Jaitley National Institute of Financial Managment",
+      subtitle: "Executive Certificate in Financial Markets",
+      logo_path: "nifm_logo.png",
+      alt_name: "nifm",
+      duration: "2010 - 2011",
+      descriptions: [
+        "⚡ One year executive course aimed at strenthening the understanding of Finanical Instruments, treasury, investments, economics etc.",
+        "⚡ Worked very closely with senior decision makers accross many financial insitutions including BSE and SGX.",
+        "⚡ The curriculum also covered use of programming to catch trends and portfolio returns, further being involved in realtime trading and hedging was also a great exposure.",
+        "⚡ The institue being at the centre of training Indian officers as part of Minisrty of Finance was specially intersting to observe how the decision making works at Govt. level.",
+      ],
+      website_link: "https://www.ajnifm.ac.in/",
+    },
+    {
+      title: "ESCP Business School",
+      subtitle: "Specialized Maters in Big data and Business Analytics",
+      logo_path: "escp_logo.png",
+      alt_name: "escp",
+      duration: "2018 - 2020",
+      descriptions: [
+        "⚡ A specialized course that covered all the important Data revolution related aspects from BI, ML, AI, Management, Programming and even classic tools like Excel.",
+        "⚡ Constant immersion with industry byt working on real life problems and trying to find solution through data alongside studies was totally enriching.",
+        "⚡ With respect to the various aspects of business and using data in daily operations, we covered almost all the aspects like where and how Bigdata is used in Finance, Marketing, Strategy etc.",
+        "⚡ Direct training on tools like Tableau, SAP, Salesforce etc and various ML Algorithms.",
+      ],
+      website_link: "https://escp.eu/programmes/specialised-masters-MSc/",
     },
   ],
 };
@@ -411,7 +424,7 @@ const degrees = {
 const certifications = {
   //TODO: cretifications
   certifications: [
-    {
+    /*{
       title: "Machine Learning",
       subtitle: "- Andrew Ng",
       logo_path: "stanford_logo.png",
@@ -518,7 +531,7 @@ const certifications = {
         "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
       alt_name: "GCP",
       color_code: "#4285F499",
-    },
+    },*/
   ],
 };
 
