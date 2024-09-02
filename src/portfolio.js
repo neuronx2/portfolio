@@ -556,7 +556,7 @@ const experience = {
           duration: "March 2022 - Present",
           location: "Berlin, Germany",
           description:
-            "It started with an Interview as BI head for Performance Carbon SBU and moved into Strategic role to assist Board members in Innovation and New Market Development at Morgan",
+            "It started with an Interview for Head for Business Intelligence position at Performance Carbon SBU and ended in a Strategic role to assist Board members in Data Backed Innovation as New Market Development Manager",
           color: "#000000",
         },
         {
