@@ -195,4 +195,4 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme; //TODO: this is where i can choose a default theme of other type
+export const chosenTheme = blackTheme; //TODO: this is where i can choose a default theme of other type

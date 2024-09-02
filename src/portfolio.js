@@ -8,11 +8,11 @@ const settings = {
 //SEO Related settings
 const seo = {
   title: "NeuronX²",
-  description: "Kushagra Nehra's website", //TODO: details of what this is for seo purpose
+  description: "Kushagra Nehra's website",
   og: {
-    title: "Kushagra Nehra's Website", //TODO: better name of the title
+    title: "Kushagra Nehra's Website",
     type: "website",
-    url: "https://neuronx2.github.io/home",
+    url: "https://neuronx2.github.io/portfolio",
   },
 };
 
@@ -89,7 +89,7 @@ const skills = {
       title: "Data Driven Strategy",
       fileName: "DataScienceImg", //TODO:change it totally
       skills: [
-        "Post starting my career in data about 10 years back, as data generatr I graduated towards data user roles.",
+        "Post starting my career in data about 10 years back, as data generator I graduated towards data user roles.",
         "⚡ I work closely with senior management ofthen navigating my work through crossfunctional teams.",
         "⚡ Simplyfying and presenting the data interpretation for my stakeholders to turn them into actionable items.",
         "⚡ My role can be classified as in-house consultant who combines BI, Data Science, Analytics & Management together.",
@@ -195,7 +195,7 @@ const skills = {
     },
     {
       title: "Project & Product Management",
-      fileName: "CloudInfraImg", //TODO:change it totally
+      fileName: "DesignImg", //TODO:change it totally
       skills: [
         "At various points in professional journey, I have lead various projects and seen development of products till the end.",
         "⚡ I often act as a bridge between Clients (internal & external) and technical experts donning the hat of Project Manager or sometimes as Product Manager.",
@@ -349,18 +349,32 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "University of Delhi",
-      subtitle: "B.Sc.(H) Biomedical Sciences",
-      logo_path: "du_logo.png",
-      alt_name: "DU BSc",
-      duration: "2003 - 2006",
+      title: "ESCP Business School",
+      subtitle: "Specialized Maters in Big data and Business Analytics",
+      logo_path: "escp_logo.png",
+      alt_name: "escp",
+      duration: "2018 - 2020",
       descriptions: [
-        "⚡ One of the top rankers to get through after the all india level entrance exams (10th Place).",
-        "⚡ I studied various subjects that are studied in medical except human anatomy and some more.",
-        "⚡ Very reseach intensive curriculum and covered subjects like Bioinformatics, Biochemistry, Biostatistics, Biophysics, Microbiology, Pharmacology etc.",
-        "⚡ As a graduate student, I worked on DNA vaccines against prostate cancer using bioengineering to develop required vaccine protiens in recombinant plants.",
+        "⚡ A specialized course that covered all the important Data revolution related aspects from BI, ML, AI, Management, Programming and even classic tools like Excel.",
+        "⚡ Constant immersion with industry byt working on real life problems and trying to find solution through data alongside studies was totally enriching.",
+        "⚡ With respect to the various aspects of business and using data in daily operations, we covered almost all the aspects like where and how Bigdata is used in Finance, Marketing, Strategy etc.",
+        "⚡ Direct training on tools like Tableau, SAP, Salesforce etc and various ML Algorithms.",
       ],
-      website_link: "https://www.du.ac.in/",
+      website_link: "https://escp.eu/programmes/specialised-masters-MSc/",
+    },
+    {
+      title: "Arun Jaitley National Institute of Financial Managment",
+      subtitle: "Executive Certificate in Financial Markets",
+      logo_path: "nifm_logo.png",
+      alt_name: "nifm",
+      duration: "2010 - 2011",
+      descriptions: [
+        "⚡ One year executive course aimed at strenthening the understanding of Finanical Instruments, treasury, investments, economics etc.",
+        "⚡ Worked very closely with senior decision makers accross many financial insitutions including BSE and SGX.",
+        "⚡ The curriculum also covered use of programming to catch trends and portfolio returns, further being involved in realtime trading and hedging was also a great exposure.",
+        "⚡ The institue being at the centre of training Indian officers as part of Minisrty of Finance was specially intersting to observe how the decision making works at Govt. level.",
+      ],
+      website_link: "https://www.ajnifm.ac.in/",
     },
     {
       title: "Infinity Business School",
@@ -391,32 +405,18 @@ const degrees = {
       website_link: "https://www.ccsuniversity.ac.in/",
     },
     {
-      title: "Arun Jaitley National Institute of Financial Managment",
-      subtitle: "Executive Certificate in Financial Markets",
-      logo_path: "nifm_logo.png",
-      alt_name: "nifm",
-      duration: "2010 - 2011",
+      title: "University of Delhi",
+      subtitle: "B.Sc.(H) Biomedical Sciences",
+      logo_path: "du_logo.png",
+      alt_name: "DU BSc",
+      duration: "2003 - 2006",
       descriptions: [
-        "⚡ One year executive course aimed at strenthening the understanding of Finanical Instruments, treasury, investments, economics etc.",
-        "⚡ Worked very closely with senior decision makers accross many financial insitutions including BSE and SGX.",
-        "⚡ The curriculum also covered use of programming to catch trends and portfolio returns, further being involved in realtime trading and hedging was also a great exposure.",
-        "⚡ The institue being at the centre of training Indian officers as part of Minisrty of Finance was specially intersting to observe how the decision making works at Govt. level.",
+        "⚡ One of the top rankers to get through after the all india level entrance exams (10th Place).",
+        "⚡ I studied various subjects that are studied in medical except human anatomy and some more.",
+        "⚡ Very reseach intensive curriculum and covered subjects like Bioinformatics, Biochemistry, Biostatistics, Biophysics, Microbiology, Pharmacology etc.",
+        "⚡ As a graduate student, I worked on DNA vaccines against prostate cancer using bioengineering to develop required vaccine protiens in recombinant plants.",
       ],
-      website_link: "https://www.ajnifm.ac.in/",
-    },
-    {
-      title: "ESCP Business School",
-      subtitle: "Specialized Maters in Big data and Business Analytics",
-      logo_path: "escp_logo.png",
-      alt_name: "escp",
-      duration: "2018 - 2020",
-      descriptions: [
-        "⚡ A specialized course that covered all the important Data revolution related aspects from BI, ML, AI, Management, Programming and even classic tools like Excel.",
-        "⚡ Constant immersion with industry byt working on real life problems and trying to find solution through data alongside studies was totally enriching.",
-        "⚡ With respect to the various aspects of business and using data in daily operations, we covered almost all the aspects like where and how Bigdata is used in Finance, Marketing, Strategy etc.",
-        "⚡ Direct training on tools like Tableau, SAP, Salesforce etc and various ML Algorithms.",
-      ],
-      website_link: "https://escp.eu/programmes/specialised-masters-MSc/",
+      website_link: "https://www.du.ac.in/",
     },
   ],
 };
