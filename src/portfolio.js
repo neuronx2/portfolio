@@ -541,7 +541,7 @@ const experience = {
   title: "Experience", //TODO:you can also change the name here to reflect the info
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with Startups and Global enterprises alike. I have been an enterpreneur myself. As a professional who acts as a mediator between the technical professional and management decision makers, I love love solving business strategy challenges that are identified based on data and their solution lies mostly in what data says or soemtimes outside it.",
+    "I have worked with Startups and Global enterprises alike. I have been an enterpreneur myself. As a professional who acts as a mediator between the technical professional and management decision makers, I love love solving business strategy challenges that are identified based on data and their solution lies mostly in what data says or sometimes outside it.",
   header_image_path: "experience.svg",
   sections: [
     {
