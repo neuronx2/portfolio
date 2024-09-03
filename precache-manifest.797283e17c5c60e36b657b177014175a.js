@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "edfa09683132fb2f301753c7add25817",
+    "revision": "0824b229c09d877e7c9d004bd2a59aa0",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "5df3fbf9cad77ae49b8e",
+    "revision": "3fcbd97f3c8299ccbd12",
     "url": "/portfolio/static/css/main.4fa76e9a.chunk.css"
   },
   {
-    "revision": "f5a460c6408c2e7b4f1c",
-    "url": "/portfolio/static/js/2.d58ea1b7.chunk.js"
+    "revision": "147402129bc8178c8421",
+    "url": "/portfolio/static/js/2.4ac7fc55.chunk.js"
   },
   {
-    "revision": "5df3fbf9cad77ae49b8e",
-    "url": "/portfolio/static/js/main.f0cf62a3.chunk.js"
+    "revision": "3fcbd97f3c8299ccbd12",
+    "url": "/portfolio/static/js/main.6d94776c.chunk.js"
   },
   {
     "revision": "e73ac9e279836ecdfedf",
@@ -258,6 +258,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "069938a84edd6ebf383c318e9feb5d4c",
     "url": "/portfolio/static/media/muffito_logo.069938a8.png"
+  },
+  {
+    "revision": "d7f512b723b0ce1b4c765466598242a1",
+    "url": "/portfolio/static/media/neuronx2.d7f512b7.png"
   },
   {
     "revision": "82363a117e140b7558bdbd4a83b7ebe5",
