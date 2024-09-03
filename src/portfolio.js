@@ -758,7 +758,7 @@ const contactPageData = {
   //TODO:contact infromation
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png", //TODO: chnage image and names
+    profile_image_path: "neuronx2.png", //TODO: chnage image and names
     description:
       "Feel free to reach out to me through the following social media platforms. Will be more than happy to get back to you. I usually get back within 24hrs, unless I have restricted network availability",
   },
