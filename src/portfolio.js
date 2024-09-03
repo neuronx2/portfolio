@@ -760,29 +760,29 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png", //TODO: chnage image and names
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Feel free to reach out to me through the following social media platforms. Will be more than happy to get back to you. I usually get back within 24hrs, unless I have restricted network availability",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+      "I write over topics where tech, people and management overlap. The veryday challenges with data and pitfalls that I have seen. How to resolve them or avoid them..and some more topics...Also, open for new ideas.. :)",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "_text_",
+    subtitle: "Berlin, Germany",
     locality: "_text_",
-    country: "_text_",
-    region: "_text_",
+    country: "Germany",
+    region: "Berlin",
     postalCode: "_text_",
     streetAddress: "_text_",
     avatar_image_path: "address_image.svg",
     location_map_link: "_gps_maps_link_",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Mobile",
+    subtitle: "+49-174-5898103",
   },
 };
 
