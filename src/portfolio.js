@@ -555,8 +555,9 @@ const experience = {
           logo_path: "mam_logo.png",
           duration: "March 2022 - Present",
           location: "Berlin, Germany",
-          description:
+          descriptions: [
             "It started with an Interview for Head for Business Intelligence position at Performance Carbon SBU and ended in a Strategic role to assist Board members in Data Backed Innovation as New Market Development Manager.",
+          ],
           color: "#000000",
         },
         {
@@ -566,7 +567,7 @@ const experience = {
           logo_path: "hf_logo.png",
           duration: "April 2020 - Feb 2022",
           location: "Berlin, Germany",
-          description: "____",
+          descriptions: ["____"],
           color: "#0879bf",
         },
         {
@@ -576,7 +577,7 @@ const experience = {
           logo_path: "toluna_logo.png",
           duration: "May 2015 - Aug 2018",
           location: "Gurugram,India",
-          description: "____",
+          descriptions: ["____"],
           color: "#9b1578",
         },
         {
@@ -586,7 +587,7 @@ const experience = {
           logo_path: "dynata_logo.png",
           duration: "Nov 2017 - Dec 2017",
           location: "New Delhi, India",
-          description: "____",
+          descriptions: ["____"],
           color: "#fc1f20",
         },
         {
@@ -596,7 +597,7 @@ const experience = {
           logo_path: "dynata_logo.png",
           duration: "Nov 2017 - Dec 2017",
           location: "New Delhi, India",
-          description: "____",
+          descriptions: ["____"],
           color: "#fc1f20",
         },
         {
@@ -606,7 +607,7 @@ const experience = {
           logo_path: "ge_logo.png",
           duration: "Nov 2017 - Dec 2017",
           location: "Lucknow, India",
-          description: "____",
+          descriptions: ["____"],
           color: "#fc1f20",
         },
       ],
@@ -622,7 +623,7 @@ const experience = {
           logo_path: "trf_logo.png",
           duration: "May 2005 - Aug 2005",
           location: "New Delhi, India",
-          description: "____",
+          descriptions: ["____"],
           color: "#000000",
         },
         {
@@ -632,7 +633,7 @@ const experience = {
           logo_path: "icicipru_logo.png",
           duration: "May 2007 - Aug 2007",
           location: "New Delhi, India",
-          description: "____",
+          descriptions: ["____"],
           color: "#ee3c26",
         },
         {
@@ -642,7 +643,7 @@ const experience = {
           logo_path: "ommax_logo.png",
           duration: "Aug 2019 - Jan 2020",
           location: "Munich, Germany",
-          description: "____",
+          descriptions: ["____"],
           color: "#0071C5",
         },
       ],

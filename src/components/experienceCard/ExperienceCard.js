@@ -106,7 +106,19 @@ class ExperienceCard extends Component {
                 }}
               >
                 <div className="repo-description" />
-                {experience["description"]}
+                <ul>
+                  {experience.descriptions.map((sentence) => {
+                    return (
+                      <li
+                        className="content-list"
+                        style={{ color: theme.text }}
+                      >
+                        {sentence}
+                      </li>
+                    );
+                  })}
+                </ul>
+                <div />
               </div>
             </div>
           </div>
